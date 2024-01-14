@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>CatPhotoApp</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
@@ -28,6 +28,7 @@
         <body>
           <main>
             <h1>CatPhotoApp</h1>
+            <p>This is an application created following FreeCodeCamp</p>
             <section>
               <h2>Cat Photos</h2>
               <!-- TODO: Add link to cat photos -->
@@ -86,6 +87,7 @@
                       id="indoor"
                       name="indoor-outdoor"
                       value="indoor"
+                      checked
                     />
                     Indoor</label
                   >
@@ -101,8 +103,28 @@
                 </fieldset>
                 <fieldset>
                   <legend>What's your cat's personality?</legend>
-                  <input id="loving" type="checkbox" name="personality" />
+                  <input
+                    id="loving"
+                    type="checkbox"
+                    name="personality"
+                    value="loving"
+                    checked
+                  />
                   <label for="loving">Loving</label>
+                  <input
+                    id="lazy"
+                    type="checkbox"
+                    name="personality"
+                    value="lazy"
+                  />
+                  <label for="lazy">Lazy</label>
+                  <input
+                    id="energetic"
+                    type="checkbox"
+                    name="personality"
+                    value="energetic"
+                  />
+                  <label for="energetic">Energetic</label>
                 </fieldset>
 
                 <input
@@ -115,6 +137,13 @@
               </form>
             </section>
           </main>
+          <hr />
+          <footer>
+            <p>
+              No Copyright -
+              <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+            </p>
+          </footer>
         </body>
       </html>
     </main>
