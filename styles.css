@@ -7,3 +7,14 @@
     background-color: lightslategray;
     border-radius: 10px;
 }
+
+#three{
+    position:static;
+    background: yellow;
+}
+
+#four{
+    position:relative;
+    top: 30px;
+    left: 30px;
+}
