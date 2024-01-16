@@ -1,0 +1,27 @@
+#one {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+#two {
+  background-color: lightslategray;
+  border-radius: 10px;
+}
+
+#three {
+  position: static;
+  background-color: yellow;
+}
+
+#four {
+  background-color: red;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+#five {
+  background-color: lightblue;
+  position: absolute;
+  top: 40px;
+}
