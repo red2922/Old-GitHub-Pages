@@ -16,17 +16,23 @@
 #four {
   background-color: red;
   position: relative;
-  top: 30px;
   left: 30px;
 }
 
 #five {
   background-color: lightblue;
   position: absolute;
-  top: 40px;
+  top: 550px;
+  right: 50px;
 }
 
 #six {
   background-color: lightcoral;
   position: fixed;
+  top: 600px;
+}
+
+#seven {
+  background-color: lightsalmon;
+  position: sticky;
 }
