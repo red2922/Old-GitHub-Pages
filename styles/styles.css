@@ -25,3 +25,8 @@
   position: absolute;
   top: 40px;
 }
+
+#six {
+  background-color: lightcoral;
+  position: fixed;
+}
