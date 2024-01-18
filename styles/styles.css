@@ -42,6 +42,22 @@
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 20%;
+  margin-bottom: 2%;
+}
+
+#flex-row p {
+  background-color: aliceblue;
+  width: 18%;
+  border-radius: 5px;
+}
+
+#flex-column {
+  justify-content: center;
+  max-width: 20%;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
