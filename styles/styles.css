@@ -36,3 +36,12 @@
   background-color: lightsalmon;
   position: sticky;
 }
+
+#flex-row {
+  background-color: cadetblue;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 20%;
+}
