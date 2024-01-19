@@ -45,14 +45,16 @@
   justify-content: space-between;
   width: 25%;
   margin-bottom: 2%;
+  align-items: flex-end;
 }
 
 #flex-row p {
   background-color: aliceblue;
-  width: 18%;
+  width: fit-content;
   border-radius: 5px;
   border-color: black;
   border-style: solid;
+  flex-grow: 4;
 }
 
 #flex-column {
@@ -62,4 +64,21 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+}
+
+#flex-grow-test {
+  display: flex;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+
+#flex-grow-test p {
+  display: flex;
+  flex-grow: 2;
+  margin-right: 5px;
+  background-color: aqua;
+  border-radius: 5px;
+  border-style: dotted;
+  width: fit-content;
+  color: midnightblue;
 }
