@@ -42,8 +42,8 @@
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 20%;
+  justify-content: space-between;
+  width: 25%;
   margin-bottom: 2%;
 }
 
@@ -51,6 +51,8 @@
   background-color: aliceblue;
   width: 18%;
   border-radius: 5px;
+  border-color: black;
+  border-style: solid;
 }
 
 #flex-column {
