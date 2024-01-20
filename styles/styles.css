@@ -87,11 +87,16 @@
 
 #flex-shrink-test {
   display: flex;
-  background-color: azure;
+  background-color: rgb(223, 242, 255);
   border-radius: 5px;
+  width: 50%;
 }
 
 #flex-shrink-test p {
   display: flex;
   background-color: lightblue;
+  flex-basis: 25%;
+  margin-left: 5px;
+  border-radius: 5px;
+  align-self: center;
 }
