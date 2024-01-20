@@ -64,12 +64,14 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 #flex-grow-test {
   display: flex;
   background-color: aquamarine;
   border-radius: 5px;
+  width: fit-content;
 }
 
 #flex-grow-test p {
@@ -81,4 +83,15 @@
   border-style: dotted;
   width: fit-content;
   color: midnightblue;
+}
+
+#flex-shrink-test {
+  display: flex;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+#flex-shrink-test p {
+  display: flex;
+  background-color: lightblue;
 }
