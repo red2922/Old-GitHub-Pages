@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  list-style-type: none;
+  align-content: center;
+  align-items: left;
+  background-color: rgb(221, 246, 255);
+  border-radius: 5px;
+  font-size: 25px;
+  gap: 20px;
+}
+
+.item-one {
+  background-color: rgb(247, 253, 255);
+  border-radius: 5px;
+  height: 60px;
+}
+
+.item-two {
+  background-color: rgb(247, 253, 255);
+  border-radius: 5px;
+  height: 60px;
+}
+
+.item-three {
+  background-color: rgb(247, 253, 255);
+  border-radius: 5px;
+  height: 60px;
+}
