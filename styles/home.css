@@ -17,6 +17,6 @@
   align-items: center;
 }
 
-li a:hover {
+li:hover {
   background-color: rgb(132, 155, 163);
 }
