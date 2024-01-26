@@ -6,6 +6,14 @@ body {
   animation-timing-function: ease-in-out;
 }
 
+.anime {
+  width: 100;
+  height:100;
+  position: absolute;
+  z-index:-1;
+  animation-name: circ_movement;
+  animation-iteration-count: infinite;
+}
 
 .container {
   display: flex;
@@ -37,4 +45,12 @@ li:hover {
   60% {background-color:rgb(179, 234, 254);}
   80% {background-color:rgb(107, 215, 255);}
   100% {background-color:rgb(124, 220, 255);}
+}
+
+@keyframes circ_movement {
+  0%{transform:translate(0,0);}
+  25%{transform:translate(50%,0);}
+  50%{transform:translate(100%,0);}
+  75%{transform:translate(100%,100%);}
+  100%{transform:translate(0,100%);}
 }
