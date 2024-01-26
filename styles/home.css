@@ -6,13 +6,15 @@ body {
   animation-timing-function: ease-in-out;
 }
 
-.anime {
-  width: 100;
-  height:100;
+.circle {
+  width: 100px;
+  height: 100px;
   position: absolute;
-  z-index:-1;
-  animation-name: circ_movement;
-  animation-iteration-count: infinite;
+  z-index: -1;
+  animation: circ-movement 5s infinite;
+  transform-origin: center;
+  background-color: aquamarine;
+  border-radius: 100%;
 }
 
 .container {
@@ -39,18 +41,34 @@ li:hover {
 }
 
 @keyframes color_change {
-  0% {background-color:rgb(124, 220, 255);}
-  20%{background-color: rgb(232, 249, 255);}
-  40% {background-color:rgb(205, 242, 255);}
-  60% {background-color:rgb(179, 234, 254);}
-  80% {background-color:rgb(107, 215, 255);}
-  100% {background-color:rgb(124, 220, 255);}
+  0% {
+    background-color: rgb(124, 220, 255);
+  }
+  20% {
+    background-color: rgb(232, 249, 255);
+  }
+  40% {
+    background-color: rgb(205, 242, 255);
+  }
+  60% {
+    background-color: rgb(179, 234, 254);
+  }
+  80% {
+    background-color: rgb(107, 215, 255);
+  }
+  100% {
+    background-color: rgb(124, 220, 255);
+  }
 }
 
 @keyframes circ_movement {
-  0%{transform:translate(0,0);}
-  25%{transform:translate(50%,0);}
-  50%{transform:translate(100%,0);}
-  75%{transform:translate(100%,100%);}
-  100%{transform:translate(0,100%);}
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 100px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
