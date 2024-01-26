@@ -1,3 +1,10 @@
+body {
+  animation-name: color_change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
 .container {
   display: flex;
   list-style-type: none;
@@ -19,4 +26,13 @@
 
 li:hover {
   background-color: rgb(132, 155, 163);
+}
+
+@keyframes color_change {
+  0% {background-color:rgb(124, 220, 255);}
+  20%{background-color: rgb(232, 249, 255);}
+  40% {background-color:rgb(205, 242, 255);}
+  60% {background-color:rgb(179, 234, 254);}
+  80% {background-color:rgb(107, 215, 255);}
+  100% {background-color:rgb(124, 220, 255);}
 }
