@@ -6,16 +6,7 @@ body {
   animation-timing-function: ease-in-out;
 }
 
-.circle {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  z-index: -1;
-  animation: circ-movement 5s infinite;
-  transform-origin: center;
-  background-color: aquamarine;
-  border-radius: 100%;
-}
+
 
 .container {
   display: flex;
@@ -61,14 +52,4 @@ li:hover {
   }
 }
 
-@keyframes circ_movement {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, 100px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
+
