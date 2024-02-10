@@ -1,6 +1,6 @@
 body {
   animation-name: color_change;
-  animation-duration: 10s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
@@ -38,6 +38,10 @@ body {
 
 li:hover {
   background-color: rgb(132, 155, 163);
+}
+
+#landing-page {
+  list-style: none;
 }
 
 @keyframes color_change {
