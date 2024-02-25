@@ -34,7 +34,22 @@
           /><!--pattern takes a specific match. In this case a through z, digits 0 to 5, and length of 8--></label
         >
       </fieldset>
-      <fieldset><label></label><label></label></fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"
+          ><input
+            id="personal-account"
+            type="radio"
+            name="account-type"
+            checked
+          />
+          Personal</label
+        >
+        <label for="business-account"
+          ><input id="business-account" type="radio" name="account-type" />
+          Business</label
+        >
+      </fieldset>
       <fieldset></fieldset>
       <!--Automatically set to submit its nearest parent form element-->
       <input type="submit" value="submit" />
