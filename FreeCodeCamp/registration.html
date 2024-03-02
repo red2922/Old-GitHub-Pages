@@ -51,11 +51,26 @@
         >
       </fieldset>
       <fieldset>
-        <label>Upload a profile picture: <input type="file" /></label>
-        <label
-          >Input your age (years):
-          <input type="number" value="13" max="120" min="13"
+        <label for="profile-picture"
+          >Upload a profile picture: <input type="file" id="profile-picture"
         /></label>
+        <label for="age"
+          >Input your age (years):
+          <input type="number" value="13" max="120" min="13" id="age"
+        /></label>
+        <!--select creates a little drop down arrow. it usually contains option elements-->
+        <label for="referrer"
+          >How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <!--Text area is a whole area where you are able to input whole strings-->
+        <label for="bio">Provide a bio:<textarea id="bio"></textarea></label>
       </fieldset>
       <label for="terms-and-conditions"
         ><input id="terms-and-conditions" type="checkbox" required />I accept
