@@ -16,13 +16,17 @@
     <form action="https://register-demo.freecodecamp.org" method="post">
       <fieldset>
         <label for="first-name"
-          >Enter Your First Name: <input id="first-name" type="text" required
+          >Enter Your First Name:
+          <!--name is used for id the element inform submission-->
+          <input id="first-name" type="text" required name="f-name"
         /></label>
         <label for="last-name"
-          >Enter Your Last Name: <input id="last-name" type="text" required
+          >Enter Your Last Name:
+          <input id="last-name" type="text" required name="l-name"
         /></label>
         <label for="email"
-          >Enter Your Email: <input id="email" type="email" required
+          >Enter Your Email:
+          <input id="email" type="email" required name="email"
         /></label>
         <label for="new-password"
           >Create a New Password:
@@ -31,6 +35,7 @@
             type="password"
             required
             pattern="[a-z0-5]{8,}"
+            name="password"
           /><!--pattern takes a specific match. In this case a through z, digits 0 to 5, and length of 8--></label
         >
       </fieldset>
@@ -70,7 +75,14 @@
           </select>
         </label>
         <!--Text area is a whole area where you are able to input whole strings-->
-        <label for="bio">Provide a bio:<textarea id="bio"></textarea></label>
+        <label for="bio"
+          >Provide a bio:<textarea
+            id="bio"
+            rows="3"
+            cols="30"
+            placeholder="I like coding on the beach..."
+          ></textarea>
+        </label>
       </fieldset>
       <label for="terms-and-conditions"
         ><input id="terms-and-conditions" type="checkbox" required />I accept
