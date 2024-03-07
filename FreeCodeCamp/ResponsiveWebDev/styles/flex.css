@@ -1,0 +1,52 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ::after allows you to create an element that is the last child of the selected elements*/
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+/*Object-fit cover will tell the imgage ot fill the img container while maintaining aspect ratio. Resulting in croppping to fit */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+/* * chooses all elements  */
+* {
+  box-sizing: border-box;
+}
+
+/*Box sizing prop: used to change how the size of content is determined. Can change this to different thigns
+content-box is default
+border-box creates the width via doing padding + border 
+*/
