@@ -4,29 +4,8 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
-}
-
-.container {
-  display: flex;
-  list-style-type: none;
-  background-color: rgb(221, 246, 255);
-  font-size: 25px;
-  gap: 20px;
-  width: 100%;
-}
-
-.item {
-  display: flex;
-  background-color: rgb(247, 253, 255);
-  border-radius: 5px;
-  height: 50px;
-  width: 10%;
-  justify-content: center;
-  align-items: center;
-}
-
-li:hover {
-  background-color: rgb(132, 155, 163);
+  margin: 0;
+  padding: 0;
 }
 
 #landing-page {
