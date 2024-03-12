@@ -1,15 +1,27 @@
+:root {
+  --back: rgb(221, 246, 255);
+  --high: rgb(247, 253, 255);
+  --hov: rgb(190, 207, 212);
+}
+
+header {
+  border-bottom: solid black 2pt;
+}
+
 nav {
   display: flex;
   list-style-type: none;
-  background-color: rgb(221, 246, 255);
+  background-color: var(--back);
   font-size: 25px;
   gap: 20px;
   width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 a {
   display: flex;
-  background-color: rgb(247, 253, 255);
+  background-color: var(--high);
   border-radius: 5px;
   height: 50px;
   width: 10%;
@@ -19,5 +31,5 @@ a {
 }
 
 a:hover {
-  background-color: rgb(190, 207, 212);
+  background-color: var(--hov);
 }
