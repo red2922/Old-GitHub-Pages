@@ -12,3 +12,17 @@ body {
   height: 50vh;
   justify-content: center;
 }
+
+#landing-page a {
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  height: fit-content;
+  width: 5vw;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#landing-page a:hover {
+  background-color: lightblue;
+}
