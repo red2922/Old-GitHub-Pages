@@ -4,6 +4,11 @@
   --hov: rgb(190, 207, 212);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   border-bottom: solid black 2pt;
 }
@@ -17,9 +22,10 @@ nav {
   width: 100%;
   padding-top: 4px;
   padding-bottom: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a {
+nav a {
   display: flex;
   background-color: var(--high);
   border-radius: 5px;
