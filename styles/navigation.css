@@ -1,5 +1,5 @@
 :root {
-  --back: rgb(221, 246, 255);
+  --back: rgb(255, 255, 255);
   --high: rgb(247, 253, 255);
   --hov: rgb(190, 207, 212);
 }
@@ -30,7 +30,7 @@ nav a {
   display: flex;
   border-radius: 5px;
   height: 50px;
-  width: 5%;
+  width: 7%;
   justify-content: center;
   align-items: center;
   text-decoration: none;
