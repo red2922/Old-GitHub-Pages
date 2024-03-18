@@ -5,3 +5,21 @@
 > - Software Engineering
 >   
 > to employers.
+
+## Process
+> In order to meet this goal I will be employing a psudo-Agile approach. I will mainly be focusing on these phases:
+> - Planning
+> - Design
+> - Develop
+>   
+> I will be combining Test + Review Together. I will not be dealing with Deploy + Launch as GitHub Pages should be able to handle it.
+
+
+## Ideas Applied
+> I will mainly be focusing on UI/UX Design with project. I will be taking ideas from:
+> - FreeCodeCamp
+> - UI/UX with CodeAcademy
+> - UX for Beginners by: Joel Marsh
+> - Looking at other website designes for inspiration 
+>
+> I will be applying many of the ideas from theses various resources in order to sharpen my skills and to reach my goal
