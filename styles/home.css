@@ -1,16 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(163, 217, 255);
+  background-color: #1AA7EC;
+  display: grid;
+}
+
+#landing {
+  display: flex;
+  background-color: white;
+  height: 50vh;
+  width: 20vw;
+  border-radius: 50px;
+  justify-content: center;
 }
 
 #landing-page {
   list-style: none;
   display: flex;
   gap: 10%;
-  background-color: rgb(220, 220, 255);
-  height: 50vh;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #landing-page a {
