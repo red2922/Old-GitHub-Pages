@@ -6,12 +6,15 @@ body {
 }
 
 #landing {
-  display: flex;
   background-color: white;
   height: 50vh;
   width: 20vw;
   border-radius: 50px;
-  justify-content: center;
+}
+
+#landing h2 {
+  text-align: center;
+  border-bottom: black solid 2pt;
 }
 
 #landing-page {
