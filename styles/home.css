@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1AA7EC;
-  display: grid;
+  background-color: #1aa7ec;
 }
 
 #landing {
@@ -21,7 +20,6 @@ body {
   list-style: none;
   display: flex;
   gap: 10%;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
