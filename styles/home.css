@@ -2,6 +2,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1aa7ec;
+  align-content: flex-end;
+}
+
+#content {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px 20px 0px;
 }
 
 #landing {
@@ -9,25 +16,26 @@ body {
   height: 50vh;
   width: 20vw;
   border-radius: 50px;
+  text-align: center;
 }
 
 #landing h2 {
-  text-align: center;
   border-bottom: black solid 2pt;
 }
 
 #landing-page {
   list-style: none;
   display: flex;
-  gap: 10%;
+  gap: 15%;
   flex-wrap: wrap;
 }
 
 #landing-page a {
-  border-left: black solid 1px;
-  border-right: black solid 1px;
-  height: fit-content;
+  border: black solid 1pt;
+  border-radius: 10pt;
+  height: 10vh;
   width: 5vw;
+  margin-top: 20px;
   padding: 10px;
   text-align: center;
   text-decoration: none;
