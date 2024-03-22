@@ -31,7 +31,6 @@ body {
 }
 
 #landing-page a {
-  border: black solid 1pt;
   border-radius: 10pt;
   height: 10vh;
   width: 5vw;
@@ -39,6 +38,8 @@ body {
   padding: 10px;
   text-align: center;
   text-decoration: none;
+  background-color: #1aa7ec;
+  color: white;
 }
 
 #landing-page a:hover {
